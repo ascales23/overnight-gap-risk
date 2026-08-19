@@ -1,0 +1,20 @@
+# secrets — NEVER commit
+.env
+live/.env
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.python-version
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+
+# runtime logs
+logs/
+*.sqlite

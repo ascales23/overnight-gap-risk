@@ -1,0 +1,30 @@
+{
+ "features": [
+  "vix_level",
+  "vix_chg5",
+  "ts_slope",
+  "roll_yield",
+  "rv20",
+  "vrp",
+  "ret5",
+  "ret20",
+  "dist_ma50",
+  "dist_ma200",
+  "prior_intraday",
+  "prior_overnight",
+  "hyg_ret5",
+  "dow_1",
+  "dow_2",
+  "dow_3",
+  "dow_4"
+ ],
+ "threshold": 0.62850022315979,
+ "danger_thresh": -0.01,
+ "stand_aside_frac": 0.16,
+ "trained_at": "2026-08-17 16:47:03.162572",
+ "n": 3077,
+ "base_rate": 0.04777380565485863,
+ "insample_auc": 0.8966241786817116,
+ "train_start": "2014-05-21",
+ "train_end": "2026-08-14"
+}

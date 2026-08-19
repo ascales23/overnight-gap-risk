@@ -1,0 +1,11 @@
+# Reproducible backtest (backtest.py) needs only these:
+numpy>=2.0
+pandas>=2.2
+xgboost>=3.0
+scikit-learn>=1.4     # xgboost's XGBClassifier (sklearn API) requires it
+pyarrow>=15.0
+
+# Additional deps used by the live/ deployment reference (not needed for the backtest):
+#   alpaca-py>=0.20       # broker.py: paper order routing
+#   python-dotenv>=1.0    # broker.py: loads live/.env
+#   ib_async>=1.0         # snapshot.py: Interactive Brokers close-of-day snapshot
